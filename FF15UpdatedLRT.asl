@@ -1,0 +1,10 @@
+state("ffxv_s")
+{
+	//bool isLoading : 0x045DE410, 0x8, 0x40, 0xB8, 0x98;
+        bool isLoading : 0x045DF410, 0x8, 0x40, 0x270, 0x314;
+	
+}
+isLoading
+{
+        return current.isLoading;
+}
